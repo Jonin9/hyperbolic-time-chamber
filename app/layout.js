@@ -1,4 +1,5 @@
 import './globals.css';
+import './details.css';
 
 export const metadata = {
   title: 'Hyperbolic Time Chamber',
