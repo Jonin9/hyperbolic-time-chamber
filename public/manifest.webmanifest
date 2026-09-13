@@ -1,0 +1,16 @@
+{
+  "name": "Hyperbolic Time Chamber",
+  "short_name": "Time Chamber",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050816",
+  "theme_color": "#050816",
+  "icons": [
+    {
+      "src": "/icon.jpg",
+      "sizes": "180x180",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ]
+}
