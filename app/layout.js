@@ -1,5 +1,6 @@
 import './globals.css';
 import './details.css';
+import MealResearchBridge from './MealResearchBridge';
 
 export const metadata = {
   title: 'Hyperbolic Time Chamber',
@@ -9,16 +10,10 @@ export const metadata = {
     icon: [{ url: '/icon.jpg', type: 'image/jpeg' }],
     apple: [{ url: '/apple-icon.jpg', type: 'image/jpeg' }]
   },
-  appleWebApp: {
-    capable: true,
-    title: 'Time Chamber',
-    statusBarStyle: 'black-translucent'
-  }
+  appleWebApp: { capable: true, title: 'Time Chamber', statusBarStyle: 'black-translucent' }
 };
 
-export const viewport = {
-  themeColor: '#050816'
-};
+export const viewport = { themeColor: '#050816' };
 
 export default function RootLayout({ children }) {
   return (
@@ -28,7 +23,7 @@ export default function RootLayout({ children }) {
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-title" content="Time Chamber" />
       </head>
-      <body>{children}</body>
+      <body><MealResearchBridge />{children}</body>
     </html>
   );
 }
